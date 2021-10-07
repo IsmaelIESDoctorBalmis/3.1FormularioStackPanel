@@ -17,7 +17,7 @@
             </StackPanel.Background>
 
 
-            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16">Nombre</TextBlock>
+            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16" Text="Nombre"/>
             <TextBox  Margin="5"></TextBox>
             
             
@@ -31,7 +31,7 @@
             </StackPanel.Background>
 
 
-            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16">Dirección</TextBlock>
+            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16" Text="Dirección"/>
             <TextBox  Margin="5"></TextBox>
 
 
@@ -47,8 +47,8 @@
             </StackPanel.Background>
 
 
-            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16">Correo electrónico</TextBlock>
-            <TextBox  Margin="5"></TextBox>
+            <TextBlock Margin="5,5,0,0" FontWeight="Bold" FontSize="16" Text="Correo electrónico"/>
+            <TextBox  Margin="5" Width="630" HorizontalAlignment="Left"></TextBox>
 
 
         </StackPanel>
@@ -57,9 +57,9 @@
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
 
-            <Button Width="100" >Aceptar</Button>
-            <Button Width="100" Margin="10,0,0,0">Cancelar</Button>
-            
+            <Button Width="100" Content="Aceptar"/>
+            <Button Width="100" Margin="10,0,0,0" Content="Cancelar" /> 
+
         </StackPanel>
         
 
